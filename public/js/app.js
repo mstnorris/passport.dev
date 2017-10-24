@@ -1401,15 +1401,14 @@ window.Vue = __webpack_require__(38);
 
 Vue.component('example-component', __webpack_require__(41));
 
-var app = new Vue({
-    el: '#app'
-});
-
 Vue.component('passport-clients', __webpack_require__(44));
 
 Vue.component('passport-authorized-clients', __webpack_require__(50));
 
 Vue.component('passport-personal-access-tokens', __webpack_require__(55));
+var app = new Vue({
+    el: '#app'
+});
 
 /***/ }),
 /* 14 */
